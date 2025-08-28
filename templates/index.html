@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audiveris with Flask</title>
+</head>
+<body>
+    <h1>Upload a music sheet image for OMR processing</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Process with Audiveris">
+    </form>
+</body>
+</html>
