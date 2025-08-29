@@ -1,5 +1,5 @@
 # Use a base image with Java and Python
-FROM adoptopenjdk/openjdk17:alpine as base
+FROM alpine:latest
 
 # Install Python and other build tools
 RUN apk add --no-cache python3 py3-pip
